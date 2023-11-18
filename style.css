@@ -1,0 +1,228 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(./front-view-pile-books-with-glasses.jpg);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+background-color:#04364A ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #DAFFFB;
+height: 13vh;
+margin-bottom: 0;
+}
+#headerH1{
+    border: none;
+    padding-left: 8px;
+    border-radius: 10px;
+    background-color: #176B87;
+   margin-left: 20px;
+    font-size: 46px;
+    
+}
+#colorfulPart{
+    background-color: #DAFFFB ;
+    color: #04364A;
+    border-radius: 10px;
+}
+#headerBtnDiv{
+    display: flex;
+justify-content: space-evenly;
+
+   
+}
+header button{
+    padding: 10px 40px;
+    margin-right: 20px;
+font-size: 20px;
+color: #04364A;
+background-color: #DAFFFB;
+border-radius: 20px;
+border: 3px solid #176B87;
+}
+header button:hover{
+    border: 5px solid rgb(175, 175, 175);
+}
+
+/* header section end  */
+
+#bannerSection{
+    height: 66vh;
+}
+#bannerSection h1{
+     position: absolute;
+right: 40px;
+top: 50px;
+font-size: 54px;
+}
+#bannerMainDiv 
+{
+    display: flex;
+    
+justify-content: right;
+align-items: center;
+margin-top: 85px;
+margin-right: 150px;
+
+
+}
+#signInBtn{
+    margin-left: 70px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: #04364A;
+    color: #DAFFFB;
+    font-weight: 900;
+}
+   #bannerMainDiv input:hover{
+    border: 2px solid black;
+   }
+#bannerMainDiv input{
+    display: block;
+    font-size: 15px;
+    padding: 10px 60px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+/* banner section end  */
+
+#aboutSection{
+  
+    height: 100vh;
+  background-color: #c9c9c9;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#aboutSectionH1{
+   margin: 5px 167px;
+    font-size: 60px;
+    color: #04364A;
+    
+}
+#aboutMainDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#imgDiv>img{
+    height: 70vh;
+    width: 50vw;
+    padding: 100px 50px;
+}
+#textDivH1{
+color: #04364A;
+text-align: center;
+}
+#textDiv>p{
+    padding: 5px 70px;
+    line-height: 25px;
+    color: #04364A;
+    text-align: justify;
+}
+#textDiv>u{
+    color: #176B87;
+    text-align: center;
+}
+#textDiv>button {
+    padding: 20px 50px;
+    margin-left: 190px;
+    font-size: 15px;
+    border: 3px groove #80ebe0;
+}
+#textDiv>button:hover{
+    border: 3px solid #04364A;
+}
+/* about section end  */
+
+#indexSection{
+margin-top: 0;
+padding-top: 0;
+    background-image: url(./alexander-grey-eMP4sYPJ9x0-unsplash.jpg);
+    height: 100vh;
+   background-size: cover;
+    background-repeat : no-repeat;
+    border: 1px solid rgb(204, 202, 202);
+}
+#indexSection h1{
+    
+font-size: 50px;
+color: #04364A;
+margin: 10px 200px 10px 270px;
+}
+#indexSection>ul{
+    list-style: none;
+    width: 30vw;
+    height: 70vh;
+    background-color: #c9c9c9;
+   margin-left: 100px;
+   padding-top: 20px;
+   box-shadow: 0 0 20px 10px gray;
+   text-align: center;
+   font-size: 40px;
+}
+#indexSection>ul li{
+    margin: 40px 10px 40px 10px;
+    color: #176B87;
+    text-shadow: 3px 3px black;
+}
+
+
+#reviewSection{
+    background-image: url(./mockaroon-YqUeLG7fMr4-unsplash.jpg);
+    height: 100vh;
+}
+#reviewSection>h1{
+    text-align: center;
+    font-size: 40px;
+    height: 30px;
+    color: #04364A;
+    margin-top: 5px;
+
+}
+#reviewMainDiv{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reviewCard{padding: 5px 20px;
+    margin:  2px 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+    text-align: justify;
+    border: 5px solid #176B87;
+    background-color: #04364A;
+}
+.reviewCard img{
+height: 20vh;
+border-radius: 100%;
+border: 2px solid #04364A;
+margin-right: 100px;
+}
+#footerSection{
+    background-image: url(./mockaroon-YqUeLG7fMr4-unsplash.jpg);
+    border: 1px solid rgb(216, 216, 216);
+    height: 50vh;
+}
+#footerSection p{
+    display: block;
+    padding: 30px 70px;
+    font-size: 30px;
+ line-height: 70px;
+ color: #022736;
+
+}
+#footerSection small{
+    padding-left: 100px;
+    color: #555555;
+}
